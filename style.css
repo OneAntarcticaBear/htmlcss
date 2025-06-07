@@ -353,24 +353,76 @@ a {
     }
 }
 
-*/
+
 
 @media(max-width: 375px) {
+
+    .nav-item {
+        color: #333;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        display: block;
+    }
+    
+    .nav-item:hover {
+        color: #0027D5;
+    }
 
     .banner-photo,
     .banner-introduce {
         width: 100%;
     }
-
+    .banner-introduce-content {
+        text-align: left;
+        color: red;
+        margin-left: 2px;
+    }
+    
+    .blog-title {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 1.5;
+        margin-bottom: 1px;
+        letter-spacing: 0.05em;
+    }
+    
+    .banner-subTitle {
+        font-size: 18px;
+        line-height: 1.5;
+        font-weight: 700;
+    }
     .banner {
         flex-direction: column;
         height: auto;
     }
 
-    .blog-title {
-        font-size: 52px;
-        color:red;
+    .about-introduce-content {
+        text-align: left;
+        margin-left: 80px;
     }
+    
+    .about-title {
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1.5;
+        margin-bottom: 12px;
+        letter-spacing: 0.05em;
+    }
+    
+    .about-subtitle {
+        color: #0027D5;
+        font-size: 28px;
+        line-height: 1.5;
+        font-weight: 700;
+    
+    }
+
 
     .banner-photo {
         height: calc(100vh - 90px - 180px);
@@ -390,33 +442,34 @@ a {
     .search input {
         width: 89%;
     }
-    .container {
-        width: 100%;
-        margin-right: 12px;
+
+}
+*/
+
+@media (max-width: 767px) {
+    .blog-title {
+      font-size: 36px;
     }
-}
-
-/*
-img {
-	max-width: 100%;
-	height: auto;
-    vertical-align: middle;
-    padding-bottom:10px;
-}
-
-
-
-*/
-
-
-/* 共通 class
-.container{
-  width: 1296px;
-  margin: 0 auto;
-
-}
-*/
-
+  
+    .about-title {
+      font-size: 24px;
+    }
+  
+    .banner-subTitle,
+    .about-subtitle {
+      font-size: 18px;
+    }
+  
+    .btn,
+    .popular {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  
+    .container {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
 
 
 
