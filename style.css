@@ -356,9 +356,6 @@ a {
 */
 
 @media(max-width: 375px) {
-    .background {
-        background: gray;
-    }
 
     .banner-photo,
     .banner-introduce {
@@ -370,8 +367,21 @@ a {
         height: auto;
     }
 
-    .banner h1 {
-        font-size: 52px; 
+    .blog-title {
+        font-size: 52px;
+        color:red;
+    }
+
+    .banner-photo {
+        height: calc(100vh - 90px - 180px);
+    }
+
+    .banner-introduce {
+        padding: 24px;
+    }
+
+    .banner-introduce-content {
+        margin-left: 0px;
     }
 
     .search {
@@ -384,6 +394,7 @@ a {
         width: 100%;
         margin-right: 12px;
     }
+}
 
 /*
 img {
