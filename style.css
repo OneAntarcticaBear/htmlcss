@@ -323,7 +323,7 @@ a {
 
 
 
-/* 響應式設計 */
+/* 響應式設計 
 @media (max-width: 768px) {
 
     .banner-photo,
@@ -352,6 +352,38 @@ a {
         margin-left: 0px;
     }
 }
+
+*/
+
+@media(max-width: 375px) {
+    .background {
+        background: gray;
+    }
+
+    .banner-photo,
+    .banner-introduce {
+        width: 100%;
+    }
+
+    .banner {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .banner h1 {
+        font-size: 52px; 
+    }
+
+    .search {
+        margin-right: 12px;
+    }
+    .search input {
+        width: 89%;
+    }
+    .container {
+        width: 100%;
+        margin-right: 12px;
+    }
 
 /*
 img {
